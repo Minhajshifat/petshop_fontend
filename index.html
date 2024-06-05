@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pawsome</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex justify-between items-center bg-pink-300 p-4 text-black">
+            <div class="name">
+                <h1 class="text-3xl font-bold">Pawsome</h1>
+            </div>
+
+            <div class="block lg:hidden">
+                <button class="navbar-burger flex items-center p-3">
+                    <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0zM0 9h20v2H0zM0 15h20v2H0z"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <ul class="nav-items hidden lg:flex space-x-4">
+                <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+                <li>
+                    <div class="dropdown relative">
+                        <button class="dropbtn">Features</button>
+                        <div class="dropdown-content absolute bg-gray-800 text-gray">
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-700">Features</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-700">Benefits</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="hover:text-gray-400">About Us</a></li>
+                <li><a href="reserve.html" class="hover:text-gray-400">Free Trial</a></li>
+                <li><a href="contact.html" class="hover:text-gray-400">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <ul class="nav-items-mobile hidden flex-col lg:hidden p-4 bg-gray-800 text-white space-y-4">
+            <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400">Features</a></li>
+            <li><a href="#" class="hover:text-gray-400">Benefits</a></li>
+            <li><a href="#" class="hover:text-gray-400">About Us</a></li>
+            <li><a href="reserve.html" class="hover:text-gray-400">Free Trial</a></li>
+            <li><a href="contact.html" class="hover:text-gray-400">Contacts</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="banner" class="h-screen flex items-center justify-center mb-50">
+
+            <div class="container mx-auto px-4">
+                <div class="mr-20">
+                    <h1 class="text-pink-500 font-bold text-2xl lg:text-6xl font-bold mb-8">Unbox Joy, Tail-Wagging
+                        Happiness!</h1>
+                    <p class="text-gray-500 text-xs lg:text-3xl mb-7">Elevate every wag and purr with our monthly care
+                        packages.</p>
+
+                    <a href="#"
+                        class="inline-block px-1 py-2 bg-pink-400 text-white font-bold rounded-sm shadow-sm hover:bg-blue-600 lg:px-4 py 2">Get
+                        some Product</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-2 bg-pink-200 py-16 mb-30">
+            <div class="container mx-auto">
+                <div class="flex flex-wrap justify-center mt-10">
+                    <!-- Card 1 -->
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                            <i class="fa-solid fa-gift text-5xl"></i>
+                            <h3 class="text-xl font-semibold mb-2">Products</h3>
+                            <p class="text-gray-700">Description of products goes here. It could be a brief overview of
+                                the
+                                products you offer.</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                            <i class="fa-regular fa-user text-5xl"></i>
+                            <h3 class="text-xl font-semibold mb-2">Services</h3>
+                            <p class="text-gray-700">Description of services goes here. It could be a brief overview of
+                                the
+                                services you offer.</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                            <i class="fa-solid fa-truck text-5xl"></i>
+                            <h3 class="text-xl font-semibold mb-2">Fast Delivery</h3>
+                            <p class="text-gray-700">Description of Delivery goes here. It could be a brief overview of
+                                the
+                                Delivery you offer.</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                            <i class="fa-solid fa-hand-holding-heart text-5xl"></i>
+                            <h3 class="text-xl font-semibold mb-2">Support</h3>
+                            <p class="text-gray-700">Description of Support goes here. It could be a brief overview of
+                                the
+                                Support you offer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3 bg-pink-200 py-20 mt-30">
+            <h1 class="text-5xl text-gray-500 text-center mb-10 font-bold">Our Clients</h1>
+            <div class="container mx-auto">
+                <div class="flex flex-wrap justify-center mt-30">
+
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-gray-300 rounded-lg shadow-lg p-20 text-center">
+                            <img class="px-8 py-6 rounded-full"
+                                src="indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes.jpg"
+                                alt="">
+                            <h3 class="text-xl font-semibold mb-2">Products</h3>
+                            <p class="text-gray-700">Description of products goes here. It could be a brief overview of
+                                the
+                                products you offer.</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-gray-300 rounded-lg shadow-lg p-20 text-center">
+                            <img class="px-8 py-6 rounded-full" src="pexels-stefanstefancik-91227.jpg" alt="">
+                            <h3 class="text-xl font-semibold mb-2">Products</h3>
+                            <p class="text-gray-700">Description of products goes here. It could be a brief overview of
+                                the
+                                products you offer.</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                        <div class="bg-gray-300 rounded-lg shadow-lg p-20 text-center">
+                            <img class="px-8 py-6 rounded-full"
+                                src="smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background.jpg"
+                                alt="">
+                            <h3 class="text-xl font-semibold mb-2">Products</h3>
+                            <p class="text-gray-700">Description of products goes here. It could be a brief overview of
+                                the
+                                products you offer.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="cta" class="bg-pink-200 py-12">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-600 mb-4">Ready to Get Started?</h2>
+                <p class="text-gray-400 text-lg md:text-xl lg:text-2xl mb-8">Unlock exclusive benefits by joining us
+                    today!
+                </p>
+                <a href="#" class="btn bg-blue-300 px-6 py-4 rounded-lg">Sign Up Now</a>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="bg-pink-400 py-2 lg:py-16 flex justify-center items-center">
+            <div>
+                <h1 class="text-3xl text-center font bold text-gray-700">Pawsome</h1>
+
+
+
+
+                <p class="text-gray-600 text-center mt-2">All rights received ©copyright Minhaj shifat</p>
+
+                <div class="mt-5 ml-10 item-center justify-center">
+                    <i class="fa-brands fa-facebook lg:text-4xl text-center"></i>
+                    <i class="fa-brands fa-twitter lg:text-4xl text-center"></i>
+                    <i class="fa-brands fa-instagram lg:text-4xl text-center"></i>
+                    <i class="fa-brands fa-linkedin lg:text-4xl text-center"></i>
+                    <i class="fa-brands fa-github lg:text-4xl text-center"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+
+}
+
+     .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+#banner{
+    background-image: url("gray-kitty-with-monochrome-wall-her.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:95vh;
+
+
+}
+.content{
+   width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
